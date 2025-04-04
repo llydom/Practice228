@@ -1,5 +1,5 @@
 const basePath = window.location.hostname.includes('github.io')
-  ? '/practice-layout/'
+  ? '/Practice228/'
   : '/'
 
 document.addEventListener('DOMContentLoaded', function () {
@@ -179,7 +179,7 @@ var app = new Vue({
       this.btnVisible = 1
     },
     goToCart () {
-      window.location.href = '/practice-layout/contact-us.html'
+      window.location.href = '/Practice228/contact-us.html'
     },
 
     checkInCart: function (id) {
